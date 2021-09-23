@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(images/porsche-1851246_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  background: rgba(182, 187, 193, 0.62);
+  height: 93px;
+}
+.navlinks {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 89px;
+  font-size: 20px;
+}
+.navlink {
+  margin-left: 34px;
+  text-decoration: none;
+  color: #1a1a18;
+  border: 7px solid #e9c65e;
+  border-radius: 43px;
+  background-color: #e9c65e;
+  padding-top: 10px;
+  padding-left: 30px;
+  height: 30px;
+  width: 150px;
+}
+.logo {
+  letter-spacing: 1.16em;
+  margin-left: 150px;
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: 900;
+}
