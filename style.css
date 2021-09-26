@@ -3,7 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -82,6 +82,46 @@ h1 {
   width: 50%;
   background-color: rgba(26, 26, 24, 0.25);
   left: 1px;
-  height: 100%;
+  height: 90%;
   top: 93px;
+}
+.collection {
+  width: 100vw;
+  height: 800px;
+  background: #1a1a18;
+  position: relative;
+}
+.options {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.options-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.option-link {
+  margin-top: 30px;
+  position: relative;
+  width: 275px;
+  height: 176px;
+  border: 5px solid #b6bbc1;
+  background: #1a1a18;
+  text-align: center;
+  margin-left: 30px;
+}
+.option-image {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+}
+.link {
+  text-decoration: none;
+  color: #e9c65e;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
 }
