@@ -42,6 +42,12 @@ h1 {
   height: 30px;
   width: 150px;
 }
+.navlink:hover {
+  color: #e9c65e;
+  border: 7px solid #1a1a18;
+  background: #1a1a18;
+  transition: all 0.3s;
+}
 .logo {
   letter-spacing: 1.16em;
   margin-left: 150px;
@@ -111,6 +117,9 @@ h1 {
   text-align: center;
   margin-left: 30px;
 }
+.option-link:hover {
+  border: 5px solid #e9c65e;
+}
 .option-image {
   position: absolute;
   top: 5%;
@@ -124,4 +133,8 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   font-size: 36px;
+}
+.link:hover {
+  color: #b6bbc1;
+  transition: color 0.3s;
 }
