@@ -138,3 +138,93 @@ h1 {
   color: #b6bbc1;
   transition: color 0.3s;
 }
+/* Our Collection */
+.our-collection {
+  text-align: center;
+  max-width: 800px;
+  transform: translateX(-70%);
+  transform: translateX(70%);
+}
+.collection-header {
+  font-size: 64px;
+  color: #b6bbc1;
+}
+.collection-text {
+  font-size: 24px;
+  color: #e9c65e;
+  font-weight: bold;
+  margin: 3px;
+}
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.one-showcase {
+  min-height: 853px;
+  min-width: 1920px;
+  position: relative;
+}
+.frontier {
+  background-image: url("/images/nissan-1694345_1280.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.suv {
+  background-image: url("/images/suv-1344716_1280.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.ferrari {
+  background-image: url("/images/car-race-438467_1280.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.showcase-header {
+  margin-top: 35px;
+  position: absolute;
+  margin-left: 60px;
+  font-size: 48px;
+  letter-spacing: 18%;
+  line-height: 72px;
+  color: white;
+}
+.showcase-button {
+  color: #e9c65e;
+  border: 1px solid #1a1a18;
+  background: #1a1a18;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  border-radius: 23px;
+  font-size: 36px;
+  font-weight: 900;
+  margin-left: 90px;
+  position: absolute;
+  top: 200px;
+  transition: all 0.3s;
+}
+.showcase-button:hover {
+  background-color: #e9c65e;
+  color: #1a1a18;
+  border: 1px solid #e9c65e;
+}
+.footer {
+  height: 150px;
+  background: #b6bbc1;
+  margin-top: -32px;
+  text-align: center;
+  color: #1a1a18;
+  display: flex;
+  justify-content: center;
+}
+.footer h1 {
+  letter-spacing: 18%;
+  font-weight: 700;
+  font-size: 48px;
+}
