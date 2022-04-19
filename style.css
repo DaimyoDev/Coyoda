@@ -168,19 +168,19 @@ h1 {
   position: relative;
 }
 .frontier {
-  background-image: url("/images/nissan-1694345_1280.jpg");
+  background-image: url("./nissan-1694345_1280.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .suv {
-  background-image: url("/images/suv-1344716_1280.jpg");
+  background-image: url("./suv-1344716_1280.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .ferrari {
-  background-image: url("/images/car-race-438467_1280.jpg");
+  background-image: url("./car-race-438467_1280.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
